@@ -1,0 +1,602 @@
+@media (orientation:landscape){
+.background_edit{
+   height:100vh;
+  padding:10px;
+  background-size:cover;
+  margin:0px;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgb(0, 0, 0,0.7)),url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
+}
+
+.image-edit{
+    height:80px;
+    width:150px;
+}
+.header{
+    height:80px;
+    width:150px;
+}
+.top-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sign-button1{
+  height:30px;
+  width:80px;
+  margin-top:20px;
+  border-radius:10px;
+  background-color:rgb(247, 18, 18);
+  color:white;
+}
+.test_res_edit{
+    color:red;
+    display:none;
+}
+.test_res_edit1{
+    color:red;
+    display:block;
+}
+.heading-edit{
+    color:white;
+    text-align: center;
+    padding-top:10%;
+}
+.middle-section{
+    color:white;
+    text-align: center;
+    padding-top:3%;
+}
+.para-edit1{
+    color:white;
+    font-size:14px;
+}
+.statement{
+    color:white;
+    font-size:10px
+}
+.get-started-button{
+    background-color: red;
+    color:white;
+    border-width:0px;
+}
+.email{
+    display:flex;
+    flex-direction:row;
+   justify-content: center;
+}
+.enjoy-tv-edit{
+     width:90vw;
+     display:flex;
+     flex-direction:row;
+}
+.enjoy-tv-img-edit{
+    height:100px;
+    width:100px;
+}
+.enjoy-on-your-tv-container{
+    background-color:black;
+    height:50vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.enjoy-on-your-tv-container-header{
+    color:white;
+    font-size:50px;
+    font-family:roboto;
+    
+}
+.enjoy-on-your-tv-container-para{
+    color:white;
+    font-family:roboto;
+    font-size:20px
+}
+.enjoy-on-your-tv-container-image{
+    height:250px;
+    width:400px;
+   
+   background-size: cover;
+}
+.enjoy-on-your-tv-subcontainer{
+    padding:30px;
+}
+.Download_your-shows-container{
+      
+    background-color:black;
+    height:50vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Download_your-shows-image{
+    height:200px;
+    width:300px;
+   margin:20px;
+   background-size: cover;
+}
+.Download_your-shows-heading{
+    color:white;
+    font-size:50px;
+    font-family:roboto;
+    margin-right:10px;
+}
+.Download_your-shows-para{
+    color:white;
+    font-family:roboto;
+    font-size:20px;
+    margin-right:10px;
+}
+.watch-everywhere-container{
+    background-color:black;
+    height:50vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.watch-everywhere-header{
+    color:white;
+    font-size:50px;
+    font-family:roboto;
+   margin-left:10px
+}
+.watch-everywhere-para{
+    color:white;
+    font-family:roboto;
+    font-size:20px;
+    margin-left:10px
+}
+.watch-everywhere-image{
+    height:200px;
+    width:300px;
+   margin:20px;
+   background-size: cover;
+}
+.children-container{
+    background-color:black;
+    height:50vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.children-image{
+    height:200px;
+    width:300px;
+   margin:20px;
+   background-size: cover;
+}
+.children-heading{
+color:white;
+    font-size:50px;
+    font-family:roboto;
+   margin-right:10px
+}
+.children-para{
+color:white;
+    font-family:roboto;
+    font-size:20px;
+    margin-right:10px
+}
+.frequently-asked-container{
+    background-color:black;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:50px;
+  } 
+  .frequently-asked-header{
+    color:white;
+    font-size:29px;
+    text-align: center;
+  }
+  .button-edit{
+    display:flex;
+    border-radius:7px;
+    margin-top:10px;
+    color:white;
+    border-width:0px;
+    background-color: rgb(39, 39, 39);;
+    justify-content: space-between;
+    align-content: flex-end;
+    width:80vw;
+    font-size:20px;
+    padding-top:2%;
+    padding-bottom:5%;
+    height:60px; padding-left:10px;padding-right:10px;
+  }
+  .plus{
+    color:white;
+    font-size:22px;
+   padding-bottom:30px;
+  }
+  .res-container{
+    width:67vw;
+    background-color:rgb(151, 151, 151);
+     padding:10px;
+     margin-top:10px;
+     border-radius: 10px;
+     display:none;
+     
+  }
+  .show{
+    width:67vw;
+    background-color:rgb(151, 151, 151);
+     padding:10px;
+     margin-top:10px;
+     border-radius: 10px;
+      display:block;
+  }
+  .ready-to-watch-container{
+    background-color:black;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:50px;
+  }
+  .ready-to-watch-para{
+    color:white;
+    text-align: center;
+  }
+  .ready-to-watch-getstarted{
+    background-color: red;
+    border-width: 0px;
+    color:white;
+    
+  }
+  .last-card{
+    padding:10px;
+    background-color:black;
+    padding:17px;
+    margin:0px;
+ }
+ .last-card-call{
+    color:white;
+    font-size:20px;
+    padding-left:10px;
+    background-color: black;
+ }
+ .last-sub-class-para{
+    color:white;
+    font-size:11px;
+    background-color: black;
+ }
+ .last-sub-class-container{
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    padding-left:20px;
+    justify-content: space-around;
+ }
+ .second-page{
+    background-color: black;
+    height:100vh;
+    width:100w;
+    display:none;
+ }
+ .second-logo-bg{
+    background-color: black;
+ }
+ .edit-three-dots{
+    background-color: #000000;
+    color:white;
+ }
+ 
+ .navbar-toggler-icon{
+    background-color:black;
+    border-radius: 4px;
+ }
+ .navbar-nav .nav-link{
+    color:white;
+    background-color: black;
+ }
+ .second_page_bg_color{
+    background-color: black;
+    height:100%;
+    width:100%
+ }
+ .second-page_display{
+    display:none;
+ }
+ 
+}
+
+@media (orientation:portrait){
+    .background_edit{
+       height:100vh;
+      padding:10px;
+      background-size:cover;
+      margin:0px;
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgb(0, 0, 0,0.7)),url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
+    }
+    
+    .image-edit{
+        height:80px;
+        width:150px;
+    }
+    .header{
+        height:80px;
+        width:150px;
+    }
+    .top-section{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sign-button1{
+      height:30px;
+      width:80px;
+      margin-top:20px;
+      border-radius:10px;
+      background-color:rgb(247, 18, 18);
+      color:white;
+    }
+    
+    .heading-edit{
+        color:white;
+        text-align: center;
+        padding-top:10%;
+    }
+    .middle-section{
+        color:white;
+        text-align: center;
+        padding-top:26%;
+    }
+    .para-edit1{
+        color:white;
+        font-size:14px;
+    }
+    .statement{
+        color:white;
+        font-size:10px
+    }
+    .get-started-button{
+        background-color: red;
+        color:white;
+        border-width:0px;
+    }
+    .email{
+        display:flex;
+        flex-direction:row;
+       justify-content: center;
+    }
+    .enjoy-on-your-tv-container{
+        background-color:black;
+        height:50vh;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .enjoy-on-your-tv-container-header{
+        color:white;
+        font-size:27px;
+        font-family:roboto;
+        
+    }
+    .enjoy-on-your-tv-container-para{
+        color:white;
+        font-family:roboto;
+        font-size:15px
+    }
+    .enjoy-on-your-tv-container-image{
+        height:90px;
+        width:200px;
+       margin:20px;
+       background-size: cover;
+    }
+    .enjoy-on-your-tv-subcontainer{
+        padding:30px;
+    }
+    .Download_your-shows-container{
+      
+        background-color:black;
+        height:40vh;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Download_your-shows-image{
+        height:150px;
+        width:200px;
+       margin:20px;
+       background-size: cover;
+    }
+    .Download_your-shows-heading{
+        color:white;
+        font-size:27px;
+        font-family:roboto;
+        margin-right:10px;
+    }
+    .Download_your-shows-para{
+        color:white;
+        font-family:roboto;
+        font-size:15px;
+        margin-right:10px;
+    }
+    .watch-everywhere-container{
+        background-color:black;
+        height:40vh;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .watch-everywhere-header{
+        color:white;
+        font-size:27px;
+        font-family:roboto;
+       margin-left:10px
+    }
+    .watch-everywhere-para{
+        color:white;
+        font-family:roboto;
+        font-size:15px;
+        margin-left:10px
+    }
+    .watch-everywhere-image{
+        height:150px;
+        width:200px;
+       margin:20px;
+       background-size: cover;
+    }
+    .children-container{
+        background-color:black;
+        height:40vh;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .children-image{
+        height:150px;
+        width:200px;
+       margin:20px;
+       background-size: cover;
+    }
+  .children-heading{
+    color:white;
+        font-size:27px;
+        font-family:roboto;
+       margin-right:10px
+  }
+  .children-para{
+    color:white;
+        font-family:roboto;
+        font-size:15px;
+        margin-right:10px
+  }
+  .frequently-asked-container{
+    background-color:black;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:50px;
+  } 
+  .frequently-asked-header{
+    color:white;
+    font-size:29px;
+    text-align: center;
+  }
+  .button-edit{
+    display:flex;
+    margin-top:10px;
+    border-radius:7px;
+    color:white;
+    border-width:0px;
+    background-color: rgb(39, 39, 39);
+    justify-content: space-between;
+    align-content: flex-end;
+    width:71vw;
+    font-size:13px;
+    padding-top:7px;
+    height:30px;
+  }
+  .plus{
+    color:white;
+    font-size:17px;
+  }
+  .res-container{
+    width:67vw;
+    background-color:rgb(151, 151, 151);
+     padding:10px;
+     margin-top:10px;
+     border-radius: 10px;
+     display:none;
+  }
+  .show{
+    width:67vw;
+    background-color:rgb(151, 151, 151);
+     padding:10px;
+     margin-top:10px;
+     border-radius: 10px;
+      display:block;
+  }
+  .ready-to-watch-container{
+    background-color:black;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:50px;
+  }
+  .ready-to-watch-para{
+    color:white;
+    text-align: center;
+  }
+  .ready-to-watch-getstarted{
+    background-color: red;
+    border-width: 0px;
+    color:white;
+   
+  }
+ .last-card{
+    padding:10px;
+    background-color:black;
+    padding:17px;
+    margin:0px;
+ }
+ .last-card-call{
+    color:white;
+    font-size:20px;
+    padding-left:10px;
+    background-color: black;
+ }
+ .last-sub-class-para{
+    color:white;
+    font-size:11px;
+    background-color: black;
+ }
+ .last-sub-class-container{
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    padding-left:20px;
+    justify-content: space-around;
+ }
+ .second-page{
+    background-color: black;
+    height:100vh;
+    width:100w;
+    display:none;
+ }
+ .second-logo-bg{
+    background-color: black;
+ }
+ .edit-three-dots{
+    background-color: #000000;
+    color:white;
+ }
+ 
+ .navbar-toggler-icon{
+    background-color:black;
+    border-radius: 4px;
+ }
+ .navbar-nav .nav-link{
+    color:white;
+    background-color: black;
+ }
+ 
+}
